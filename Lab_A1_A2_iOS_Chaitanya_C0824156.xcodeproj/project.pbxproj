@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		048E521C26FABA8E0022528F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E521B26FABA8E0022528F /* AppDelegate.swift */; };
 		048E521E26FABA8E0022528F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E521D26FABA8E0022528F /* SceneDelegate.swift */; };
-		048E522026FABA8E0022528F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E521F26FABA8E0022528F /* ViewController.swift */; };
 		048E522326FABA8E0022528F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E522126FABA8E0022528F /* Main.storyboard */; };
 		048E522626FABA8E0022528F /* Lab_A1_A2_iOS_Chaitanya_C0824156.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048E522426FABA8E0022528F /* Lab_A1_A2_iOS_Chaitanya_C0824156.xcdatamodeld */; };
 		048E522826FABA8E0022528F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E522726FABA8E0022528F /* Assets.xcassets */; };
 		048E522B26FABA8E0022528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E522926FABA8E0022528F /* LaunchScreen.storyboard */; };
+		048E523326FAC1630022528F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E523226FAC1630022528F /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048E521826FABA8E0022528F /* Lab_A1_A2_iOS_Chaitanya_C0824156.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_A1_A2_iOS_Chaitanya_C0824156.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048E521B26FABA8E0022528F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048E521D26FABA8E0022528F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		048E521F26FABA8E0022528F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		048E522226FABA8E0022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048E522526FABA8E0022528F /* Lab_A1_A2_iOS_Chaitanya_C0824156.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab_A1_A2_iOS_Chaitanya_C0824156.xcdatamodel; sourceTree = "<group>"; };
 		048E522726FABA8E0022528F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048E522A26FABA8E0022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048E522C26FABA8F0022528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048E523226FAC1630022528F /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				048E521B26FABA8E0022528F /* AppDelegate.swift */,
 				048E521D26FABA8E0022528F /* SceneDelegate.swift */,
-				048E521F26FABA8E0022528F /* ViewController.swift */,
+				048E523226FAC1630022528F /* DashboardViewController.swift */,
 				048E522126FABA8E0022528F /* Main.storyboard */,
 				048E522726FABA8E0022528F /* Assets.xcassets */,
 				048E522926FABA8E0022528F /* LaunchScreen.storyboard */,
@@ -140,10 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048E522026FABA8E0022528F /* ViewController.swift in Sources */,
 				048E521C26FABA8E0022528F /* AppDelegate.swift in Sources */,
 				048E522626FABA8E0022528F /* Lab_A1_A2_iOS_Chaitanya_C0824156.xcdatamodeld in Sources */,
 				048E521E26FABA8E0022528F /* SceneDelegate.swift in Sources */,
+				048E523326FAC1630022528F /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
