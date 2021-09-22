@@ -13,7 +13,10 @@
 		048E522626FABA8E0022528F /* Lab_A1_A2_iOS_Chaitanya_C0824156.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048E522426FABA8E0022528F /* Lab_A1_A2_iOS_Chaitanya_C0824156.xcdatamodeld */; };
 		048E522826FABA8E0022528F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E522726FABA8E0022528F /* Assets.xcassets */; };
 		048E522B26FABA8E0022528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E522926FABA8E0022528F /* LaunchScreen.storyboard */; };
-		048E523326FAC1630022528F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E523226FAC1630022528F /* DashboardViewController.swift */; };
+		048E524426FAC35B0022528F /* ProviderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E523E26FAC35B0022528F /* ProviderScreen.swift */; };
+		048E524626FAC35B0022528F /* ProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E524026FAC35B0022528F /* ProductScreen.swift */; };
+		048E524826FAC35B0022528F /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E524226FAC35B0022528F /* DashboardScreen.swift */; };
+		048E524926FAC35B0022528F /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E524326FAC35B0022528F /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +28,10 @@
 		048E522726FABA8E0022528F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048E522A26FABA8E0022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048E522C26FABA8F0022528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		048E523226FAC1630022528F /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		048E523E26FAC35B0022528F /* ProviderScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderScreen.swift; sourceTree = "<group>"; };
+		048E524026FAC35B0022528F /* ProductScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductScreen.swift; sourceTree = "<group>"; };
+		048E524226FAC35B0022528F /* DashboardScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
+		048E524326FAC35B0022528F /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,8 @@
 			children = (
 				048E521B26FABA8E0022528F /* AppDelegate.swift */,
 				048E521D26FABA8E0022528F /* SceneDelegate.swift */,
-				048E523226FAC1630022528F /* DashboardViewController.swift */,
+				048E524326FAC35B0022528F /* Functions.swift */,
+				048E525226FAC7870022528F /* Controllers */,
 				048E522126FABA8E0022528F /* Main.storyboard */,
 				048E522726FABA8E0022528F /* Assets.xcassets */,
 				048E522926FABA8E0022528F /* LaunchScreen.storyboard */,
@@ -68,6 +75,16 @@
 				048E522426FABA8E0022528F /* Lab_A1_A2_iOS_Chaitanya_C0824156.xcdatamodeld */,
 			);
 			path = Lab_A1_A2_iOS_Chaitanya_C0824156;
+			sourceTree = "<group>";
+		};
+		048E525226FAC7870022528F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				048E524226FAC35B0022528F /* DashboardScreen.swift */,
+				048E524026FAC35B0022528F /* ProductScreen.swift */,
+				048E523E26FAC35B0022528F /* ProviderScreen.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048E524426FAC35B0022528F /* ProviderScreen.swift in Sources */,
 				048E521C26FABA8E0022528F /* AppDelegate.swift in Sources */,
+				048E524626FAC35B0022528F /* ProductScreen.swift in Sources */,
+				048E524926FAC35B0022528F /* Functions.swift in Sources */,
 				048E522626FABA8E0022528F /* Lab_A1_A2_iOS_Chaitanya_C0824156.xcdatamodeld in Sources */,
 				048E521E26FABA8E0022528F /* SceneDelegate.swift in Sources */,
-				048E523326FAC1630022528F /* DashboardViewController.swift in Sources */,
+				048E524826FAC35B0022528F /* DashboardScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
